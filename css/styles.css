@@ -100,7 +100,8 @@ body {
 }
 
 .link-contacts {
-  display: block;
+  display: flex;
+  align-items: center;
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -121,6 +122,18 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+.icon-envelope{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill:currentColor;
+}
+.icon-smartphone{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill:currentColor
 }
 
 /* Hero */
@@ -343,8 +356,17 @@ height: 70px;
 }
 
 .contacts-list-item {
+  display: block;
+  display: flex;
+  align-items: center;
+}
+.contacts-list-item:not(:last-child){
   margin-right: 50px;
 }
+/* .contacts-list-item:hover{
+  color: var(--accent-color);
+} */
+
 .site-nav> .link-current{
 color: var(--accent-color);
 }
