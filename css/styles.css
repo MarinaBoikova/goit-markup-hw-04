@@ -133,7 +133,7 @@ body {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill:currentColor
+  fill:currentColor;
 }
 
 /* Hero */
@@ -225,6 +225,7 @@ height: 70px;
   width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background:#ffffff;
 }
 .employee-list-items:not(:last-child) {
   margin-right: 30px;
@@ -235,22 +236,32 @@ height: 70px;
   align-items: center;
   justify-content: center;
 }
-/* .employee-social-networks-items-wrapper{
-  width: 44px;
-  height: 44px;
-} */
 
 .employee-social-networks-items{
 display: flex;
 justify-content: center;
 }
+.employee-social-networks-items:not(:last-child) {
+  margin-right: 10px;
+}
 .employee-social-networks-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+  color: #AFB1B8;
 }
+.employee-social-networks-link:hover, .employee-social-networks-link:focus{
+  background:var(--accent-color);
+  color: #ffffff;
+}
+
 .icon-instagram, .icon-twitter, .icon-facebook, .icon-linkedin{
 width: 20px;
 height: 20px;
+fill: currentColor;
 }
 
 /* Section work studio */
@@ -304,6 +315,7 @@ height: 20px;
 .position-employee {
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 16px;
 }
 .employee-card {
   padding: 30px;
