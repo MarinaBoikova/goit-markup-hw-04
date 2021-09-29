@@ -230,6 +230,29 @@ height: 70px;
   margin-right: 30px;
 }
 
+.employee-social-networks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .employee-social-networks-items-wrapper{
+  width: 44px;
+  height: 44px;
+} */
+
+.employee-social-networks-items{
+display: flex;
+justify-content: center;
+}
+.employee-social-networks-link{
+  width: 44px;
+  height: 44px;
+}
+.icon-instagram, .icon-twitter, .icon-facebook, .icon-linkedin{
+width: 20px;
+height: 20px;
+}
+
 /* Section work studio */
 .section-title {
   color: var(--primary-text-color);
