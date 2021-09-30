@@ -325,6 +325,37 @@ fill: currentColor;
   background-color: #f5f4fa;
 }
 
+/*--------regular clients------------ */
+.regular-clients-list{
+  display: flex;
+  justify-content: center;
+}
+
+.regular-clients-link{
+ display: flex;
+ width: 170px;
+ height: 92px;
+ border: 1px solid #AFB1B8;
+ border-radius: 4%;
+ justify-content: center;
+ align-items: center;
+ color: #AFB1B8;
+}
+
+.regular-clients-items:not(:last-child) {
+ margin-right: 30px;
+}
+.regular-clients-link:hover{
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.icon-clients{
+  widows: 106px;
+  height: 60px;
+  fill: currentColor;
+}
+
 /* Footer */
 .footer {
   background-color: #2f303a;
